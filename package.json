@@ -34,7 +34,7 @@
   "homepage": "https://github.com/AndreiBDN/react-native-calendario-selected-date#readme",
   "dependencies": {
     "moment": "2.29.1",
-    "react-native-month-selected-date": "^1.0.0"
+    "react-native-month-selected-date": "^1.0.1"
   },
   "peerDependencies": {
     "react": "*",

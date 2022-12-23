@@ -9442,9 +9442,9 @@ react-native-gradle-plugin@^0.70.3:
   resolved "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz"
   integrity sha512-oOanj84fJEXUg9FoEAQomA8ISG+DVIrTZ3qF7m69VQUJyOGYyDZmPqKcjvRku4KXlEH6hWO9i4ACLzNBh8gC0A==
 
-react-native-month-selected-date@^1.0.0:
+react-native-month-selected-date@^1.0.1:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/react-native-month-selected-date/-/react-native-month-selected-date-1.0.0.tgz"
+  resolved "https://registry.npmjs.org/react-native-month-selected-date/-/react-native-month-selected-date-1.0.1.tgz"
   integrity sha512-DtclmyA4GmaP54ijGB1E5wYfvQ924qT6B59IUdVp+YRrHG6AYfnaLr0YYJDAenRgidObHZAQ0KU2jkyzL0PCLA==
 
 react-native-web@~0.18.9:

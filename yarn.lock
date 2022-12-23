@@ -6076,9 +6076,9 @@
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz"
   "version" "0.70.3"
 
-"react-native-month-selected-date@^1.0.0":
+"react-native-month-selected-date@^1.0.1":
   "integrity" "sha512-DtclmyA4GmaP54ijGB1E5wYfvQ924qT6B59IUdVp+YRrHG6AYfnaLr0YYJDAenRgidObHZAQ0KU2jkyzL0PCLA=="
-  "resolved" "https://registry.npmjs.org/react-native-month-selected-date/-/react-native-month-selected-date-1.0.0.tgz"
+  "resolved" "https://registry.npmjs.org/react-native-month-selected-date/-/react-native-month-selected-date-1.0.1.tgz"
   "version" "1.0.0"
 
 "react-native@*", "react-native@0.70.5":
