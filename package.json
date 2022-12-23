@@ -1,6 +1,6 @@
 {
   "name": "react-native-calendario-selected-date",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Native Calendar With Selected Date",
   "main": "lib/commonjs/index.js",
   "react-native": "src/index.tsx",
@@ -34,7 +34,7 @@
   "homepage": "https://github.com/AndreiBDN/react-native-calendario-selected-date#readme",
   "dependencies": {
     "moment": "2.29.1",
-    "react-native-month-selected-date": "^1.0.1"
+    "react-native-month-selected-date": "^1.0.2"
   },
   "peerDependencies": {
     "react": "*",
