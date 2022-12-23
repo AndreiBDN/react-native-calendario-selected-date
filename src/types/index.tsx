@@ -251,4 +251,8 @@ export interface CalendarProps {
   viewableItemsChanged?: (viableItems: ViewableItemsType) => void;
   viewableRangeOffset?: number;
   selectedDate?: Date;
+  /***
+   * weekends indexes for styling
+   */
+  weekendsDaysIndexes?: number[];
 }

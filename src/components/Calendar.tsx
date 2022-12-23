@@ -48,6 +48,7 @@ const Calendario = forwardRef((props: CalendarProps, ref: Ref<FlatList>) => {
     startDate,
     endDate,
     selectedDate,
+    weekendsDaysIndexes,
   } = props;
 
   const [
@@ -245,6 +246,7 @@ const Calendario = forwardRef((props: CalendarProps, ref: Ref<FlatList>) => {
           viewableRangeOffset={viewableRangeOffset!}
           onMonthLayout={handleMonthLayout}
           selectedDate={selectedDate}
+          weekendsDaysIndexes={weekendsDaysIndexes}
         />
       );
     },
@@ -275,6 +277,7 @@ const Calendario = forwardRef((props: CalendarProps, ref: Ref<FlatList>) => {
       showWeekdays,
       theme,
       viewableRangeOffset,
+      weekendsDaysIndexes,
     ]
   );
 

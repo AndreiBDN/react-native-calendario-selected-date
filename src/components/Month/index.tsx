@@ -89,6 +89,7 @@ export default React.memo<Props>(
       locale,
       index,
       selectedDate,
+      weekendsDaysIndexes,
     } = props;
 
     const MONTH_NAMES =
@@ -153,6 +154,7 @@ export default React.memo<Props>(
             theme={props.theme}
             dayNames={props.dayNames}
             selectedDate={selectedDate}
+            weekendsDaysIndexes={weekendsDaysIndexes}
           />
         </View>
       </View>
