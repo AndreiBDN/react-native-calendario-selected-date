@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-calendario",
-    "slug": "react-native-calendario",
+    "name": "react-native-calendario-selected-date",
+    "slug": "react-native-calendario-selected-date",
     "privacy": "public",
     "version": "1.0.0",
     "orientation": "portrait",

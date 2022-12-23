@@ -1,11 +1,11 @@
-import React, { useCallback, useMemo } from 'react';
-import { View, Text, LayoutChangeEvent } from 'react-native';
-import { Month, MonthProps } from 'react-native-month';
 import moment from 'moment';
-import { isValidDate, getMonthNames, isSameDate } from '../../utils/date';
-import { shouldRenderMonth, isMonthDrawn } from './utils';
-import styles from './styles';
+import React, { useCallback, useMemo } from 'react';
+import { LayoutChangeEvent, Text, View } from 'react-native';
+import { Month, MonthProps } from 'react-native-month-selected-date';
 import { ThemeType } from '../../types';
+import { getMonthNames, isSameDate, isValidDate } from '../../utils/date';
+import styles from './styles';
+import { isMonthDrawn, shouldRenderMonth } from './utils';
 
 interface EmptyMonthProps {
   height: number;
@@ -88,6 +88,7 @@ export default React.memo<Props>(
       height,
       locale,
       index,
+      selectedDate,
     } = props;
 
     const MONTH_NAMES =
@@ -151,6 +152,7 @@ export default React.memo<Props>(
             showWeekdays={props.showWeekdays}
             theme={props.theme}
             dayNames={props.dayNames}
+            selectedDate={selectedDate}
           />
         </View>
       </View>

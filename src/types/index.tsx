@@ -1,13 +1,16 @@
 import { ReactElement, RefObject } from 'react';
-import { FlatList, ViewStyle, TextStyle, ViewToken } from 'react-native';
-import { MarkedDays, ThemeType as MonthThemeType } from 'react-native-month';
+import { FlatList, TextStyle, ViewStyle, ViewToken } from 'react-native';
+import {
+  MarkedDays,
+  ThemeType as MonthThemeType,
+} from 'react-native-month-selected-date';
 
 export type RangeType = {
   endDate?: Date;
   startDate: Date;
 };
 
-export type LocaleType = 'es' | 'en' | 'fr' | 'br' | 'zh' | 'ru';
+export type LocaleType = 'es' | 'en' | 'fr' | 'br' | 'zh' | 'ru' | 'uk';
 
 export interface ThemeType extends MonthThemeType {
   emptyMonthContainerStyle?: ViewStyle;
@@ -26,6 +29,7 @@ export type DayType = {
   isStartDate: boolean;
   isToday: boolean;
   isVisible: boolean;
+  isSelected: boolean;
 };
 
 export type ViewableItemsType = {
@@ -246,4 +250,5 @@ export interface CalendarProps {
   theme?: ThemeType;
   viewableItemsChanged?: (viableItems: ViewableItemsType) => void;
   viewableRangeOffset?: number;
+  selectedDate?: Date;
 }

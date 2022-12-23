@@ -1,8 +1,8 @@
-import React, { useCallback, useState } from 'react';
-import { View, StatusBar, SafeAreaView } from 'react-native';
-import { Calendar, ThemeType } from 'react-native-calendario';
 import moment from 'moment';
-import { MarkedDays } from 'react-native-month';
+import React, { useCallback, useState } from 'react';
+import { SafeAreaView, StatusBar, View } from 'react-native';
+import { Calendar, ThemeType } from 'react-native-calendario';
+import { MarkedDays } from 'react-native-month-selected-date';
 
 const THEME: ThemeType = {
   monthTitleTextStyle: {

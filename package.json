@@ -1,7 +1,7 @@
 {
-  "name": "react-native-calendario",
-  "version": "3.3.1",
-  "description": "React Native Calendar",
+  "name": "react-native-calendario-selected-date",
+  "version": "1.0.1",
+  "description": "React Native Calendar With Selected Date",
   "main": "lib/commonjs/index.js",
   "react-native": "src/index.tsx",
   "source": "src/index.tsx",
@@ -20,21 +20,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maggialejandro/react-native-calendario.git"
+    "url": "git+https://github.com/AndreiBDN/react-native-calendario-selected-date"
   },
   "keywords": [
     "react-native",
     "calendar"
   ],
-  "author": "Alejandro Maggi",
+  "author": "Andrei Balashov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maggialejandro/react-native-calendario/issues"
+    "url": "https://github.com/AndreiBDN/react-native-calendario-selected-date/issues"
   },
-  "homepage": "https://github.com/maggialejandro/react-native-calendario#readme",
+  "homepage": "https://github.com/AndreiBDN/react-native-calendario-selected-date#readme",
   "dependencies": {
     "moment": "2.29.1",
-    "react-native-month": "^1.5.1"
+    "react-native-month-selected-date": "^1.0.0"
   },
   "peerDependencies": {
     "react": "*",

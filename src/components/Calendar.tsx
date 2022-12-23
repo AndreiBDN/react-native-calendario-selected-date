@@ -1,20 +1,20 @@
+import moment from 'moment';
 import React, {
-  useCallback,
-  useRef,
-  useState,
-  useMemo,
-  useEffect,
   forwardRef,
   Ref,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
 } from 'react';
 import { FlatList, LayoutChangeEvent, Platform } from 'react-native';
-import moment from 'moment';
 
-import Month from './Month';
 import useMonths from '../hooks/use-months';
 import useRange from '../hooks/use-range';
-import { getMonthIndex } from '../utils/date';
 import { CalendarProps, ViewableItemsType } from '../types';
+import { getMonthIndex } from '../utils/date';
+import Month from './Month';
 
 const NUMBER_OF_MONTHS = 12;
 const MONTH_HEIGHT = 370;
@@ -47,6 +47,7 @@ const Calendario = forwardRef((props: CalendarProps, ref: Ref<FlatList>) => {
     dayNames,
     startDate,
     endDate,
+    selectedDate,
   } = props;
 
   const [
@@ -243,6 +244,7 @@ const Calendario = forwardRef((props: CalendarProps, ref: Ref<FlatList>) => {
           lastViewableIndex={lastViewableIndex}
           viewableRangeOffset={viewableRangeOffset!}
           onMonthLayout={handleMonthLayout}
+          selectedDate={selectedDate}
         />
       );
     },
@@ -268,6 +270,7 @@ const Calendario = forwardRef((props: CalendarProps, ref: Ref<FlatList>) => {
       props.minDate,
       props.renderAllMonths,
       props.renderDayContent,
+      selectedDate,
       showMonthTitle,
       showWeekdays,
       theme,
